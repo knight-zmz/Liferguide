@@ -93,9 +93,9 @@ body.lifeguide-body main.content > *:first-child {
 }
 
 #toc ul ul, #TOC ul ul, #tableofcontents ul ul, .tableofcontents ul ul, nav.toc ul ul {
-  margin-left: 0.55rem;
-  padding-left: 0.55rem;
-  border-left: 1px solid var(--border);
+  margin-left: 0.6rem;
+  padding-left: 0.7rem;
+  border-left: 1px dashed var(--border);
 }
 
 #toc li.tocpart > a,
@@ -148,12 +148,12 @@ nav.toc li.tocsubsubsection > a {
 }
 
 #toc li, #TOC li, #tableofcontents li, .tableofcontents li, nav.toc li {
-  margin: 0.2rem 0;
+  margin: 0.12rem 0;
 }
 
 #toc a, #TOC a, #tableofcontents a, .tableofcontents a, nav.toc a {
-  line-height: 1.35;
-  padding: 0.1rem 0.1rem;
+  line-height: 1.3;
+  padding: 0.1rem 0.2rem;
 }
 
 #toc a, #TOC a, #tableofcontents a, .tableofcontents a, nav.toc a {
@@ -168,14 +168,15 @@ nav.toc li.tocsubsubsection > a {
 #toc > ul > li > a,
 #TOC > ul > li > a,
 nav.toc > ul > li > a {
-  font-weight: 600;
-  font-size: 0.95rem;
+  font-weight: 700;
+  font-size: 0.98rem;
+  letter-spacing: 0.01em;
 }
 
 #toc ul ul > li > a,
 #TOC ul ul > li > a,
 nav.toc ul ul > li > a {
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   color: var(--muted);
 }
 
@@ -183,6 +184,23 @@ nav.toc ul ul > li > a {
 #TOC ul ul ul > li > a,
 nav.toc ul ul ul > li > a {
   font-size: 0.84rem;
+  color: #6a7076;
+}
+
+#toc ul ul ul ul > li > a,
+#TOC ul ul ul ul > li > a,
+nav.toc ul ul ul ul > li > a {
+  font-size: 0.8rem;
+  color: #7a8188;
+}
+
+#toc ul ul > li > a::before,
+#TOC ul ul > li > a::before,
+nav.toc ul ul > li > a::before {
+  content: "\203A";
+  display: inline-block;
+  margin-right: 0.35rem;
+  color: var(--border);
 }
 
 #toc a:hover, #TOC a:hover, #tableofcontents a:hover, .tableofcontents a:hover, nav.toc a:hover {
