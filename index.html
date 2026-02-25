@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>本科升学路径指南 - Liferguide</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+      padding: 60px 40px;
+      max-width: 900px;
+      text-align: center;
+    }
+    h1 {
+      color: #365f91;
+      font-size: 2.5em;
+      margin-bottom: 0.3em;
+      font-weight: 700;
+    }
+    .subtitle {
+      color: #764ba2;
+      font-size: 1.3em;
+      margin-bottom: 30px;
+      font-weight: 500;
+    }
+    .description {
+      color: #555;
+      font-size: 1.1em;
+      margin-bottom: 40px;
+      line-height: 1.8;
+    }
+    .buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-block;
+      padding: 15px 40px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.1em;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border: 2px solid;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border-color: transparent;
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+    }
+    .btn-secondary {
+      background: white;
+      color: #667eea;
+      border-color: #667eea;
+    }
+    .btn-secondary:hover {
+      background: #667eea;
+      color: white;
+      transform: translateY(-2px);
+    }
+    .features {
+      margin-top: 50px;
+      text-align: left;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+    .feature {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 8px;
+      border-left: 4px solid #667eea;
+    }
+    .feature h3 {
+      color: #365f91;
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+    .feature p {
+      color: #666;
+      font-size: 0.95em;
+    }
+    .footer {
+      margin-top: 50px;
+      padding-top: 30px;
+      border-top: 1px solid #eee;
+      color: #999;
+      font-size: 0.9em;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 40px 20px; }
+      h1 { font-size: 1.8em; }
+      .subtitle { font-size: 1.1em; }
+      .features { grid-template-columns: 1fr; }
+      .buttons { flex-direction: column; }
+      .btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📚 本科升学路径指南</h1>
+    <p class="subtitle">为吉大生科成长赋能</p>
+    <p class="description">
+      完整的本科升学指南，涵盖保研和考研两大升学路径，包含政策解读、流程分析及学长学姐经验分享。在这本持续更新的电子指南中，找到属于你的升学方向。
+    </p>
+    <div class="buttons">
+      <a href="lifeguide.pdf" class="btn btn-primary">📖 下载 PDF 版本</a>
+      <a href="html/lifeguide.html" class="btn btn-secondary">🌐 在线阅读</a>
+      <a href="https://github.com/knight-zmz/Liferguide" class="btn btn-secondary">💻 GitHub</a>
+    </div>
+    <div class="features">
+      <div class="feature">
+        <h3>保研指南</h3>
+        <p>详细的保研流程、名额分析、导师选择、联系策略等完整指南</p>
+      </div>
+      <div class="feature">
+        <h3>考研指南</h3>
+        <p>考研方向、院校选择、备考建议等内容持续更新中</p>
+      </div>
+      <div class="feature">
+        <h3>经验分享</h3>
+        <p>来自 20+ 位学长学姐的真实经历和实践建议</p>
+      </div>
+      <div class="feature">
+        <h3>持续更新</h3>
+        <p>每年更新内容，欢迎提交反馈和新经验</p>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Liferguide © 2024-2026 | 吉林大学生命科学学院 | <a href="https://github.com/knight-zmz/Liferguide" style="color: #667eea;">GitHub Repository</a></p>
+      <p>此资料仅供学院内部交流使用，不用于商业用途。</p>
+    </div>
+  </div>
+</body>
+</html>
