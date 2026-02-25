@@ -1,0 +1,169 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}前言｜阅读说明与使用边界}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}第一篇｜保研(推荐免试)}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}保研是什么}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}保研官方定义：}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}本学院保研成绩计算规则}{3}{subsection.2.1.2}%
+\contentsline {subsubsection}{\nonumberline 学业成绩计算}{3}{subsubsection*.3}%
+\contentsline {subsubsection}{\nonumberline 素质类项目加分}{3}{subsubsection*.5}%
+\contentsline {subsubsection}{\nonumberline 综合成绩与推免资格认定}{3}{subsubsection*.7}%
+\contentsline {subsection}{\numberline {2.1.3}课程不及格的特殊说明}{4}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}保研流程总览}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}整体流程概览}{4}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}推荐阶段：取得本校推免资格}{4}{subsection.2.2.2}%
+\contentsline {subsubsection}{\nonumberline 推荐资格的核心目标}{4}{subsubsection*.9}%
+\contentsline {subsubsection}{\nonumberline 本校推免名额情况(2026 届参考)}{4}{subsubsection*.11}%
+\contentsline {subsection}{\numberline {2.2.3}录取阶段：获取目标院校接收资格}{5}{subsection.2.2.3}%
+\contentsline {subsubsection}{\nonumberline 录取阶段的基本策略}{5}{subsubsection*.14}%
+\contentsline {subsubsection}{\nonumberline 外校去向情况(2025 届参考)}{5}{subsubsection*.16}%
+\contentsline {subsubsection}{\nonumberline 本校录取选择情况}{5}{subsubsection*.18}%
+\contentsline {subsection}{\numberline {2.2.4}关键时间轴}{6}{subsection.2.2.4}%
+\contentsline {subsubsection}{\nonumberline 本校基本流程(从大三下二月开始计时)：}{6}{subsubsection*.21}%
+\contentsline {subsubsection}{\nonumberline 流程总概括}{7}{subsubsection*.23}%
+\contentsline {subsection}{\numberline {2.2.5}三种主要获取录取资格的方式}{7}{subsection.2.2.5}%
+\contentsline {subsubsection}{\nonumberline 夏令营}{7}{subsubsection*.25}%
+\contentsline {subsubsection}{\nonumberline 预推免}{7}{subsubsection*.27}%
+\contentsline {subsubsection}{\nonumberline 九月正式推免(九推)}{8}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline 比较}{8}{subsubsection*.31}%
+\contentsline {section}{\numberline {2.3}保研类型}{8}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}常规保研}{8}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}国优计划保研(专项计划推免)}{8}{subsection.2.3.2}%
+\contentsline {subsubsection}{\nonumberline 校内要求}{8}{subsubsection*.33}%
+\contentsline {subsubsection}{\nonumberline 消息途径}{9}{subsubsection*.35}%
+\contentsline {subsubsection}{\nonumberline 特点：}{9}{subsubsection*.37}%
+\contentsline {subsubsection}{\nonumberline 项目概述}{9}{subsubsection*.39}%
+\contentsline {subsubsection}{\nonumberline 其它要点}{9}{subsubsection*.43}%
+\contentsline {subsection}{\numberline {2.3.3}院内直博}{10}{subsection.2.3.3}%
+\contentsline {subsubsection}{\nonumberline 校内要求}{10}{subsubsection*.45}%
+\contentsline {subsubsection}{\nonumberline 消息途径}{10}{subsubsection*.48}%
+\contentsline {subsubsection}{\nonumberline 特点：}{10}{subsubsection*.50}%
+\contentsline {subsubsection}{\nonumberline \textcolor {color-4F81BD}{直博好处：}}{10}{subsubsection*.52}%
+\contentsline {subsection}{\numberline {2.3.4}其它保研途径}{10}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}需要个人判断的关键点}{11}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}学硕/专硕/直博途径的选择}{11}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}导师的选择}{12}{subsection.2.4.2}%
+\contentsline {subsubsection}{\nonumberline 导师类型}{12}{subsubsection*.55}%
+\contentsline {subsubsection}{\nonumberline 导师选择角度}{12}{subsubsection*.58}%
+\contentsline {subsection}{\numberline {2.4.3}科研院or高校的选择}{13}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}轮转or非轮转}{13}{subsection.2.4.4}%
+\contentsline {subsubsection}{\nonumberline 轮转制}{13}{subsubsection*.62}%
+\contentsline {subsubsection}{\nonumberline 非轮转制(提前定导 / 直接进组)}{13}{subsubsection*.64}%
+\contentsline {section}{\numberline {2.5}工具与策略(在实际情况下,可以借助万能的大模型)}{13}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}导师的联系}{13}{subsection.2.5.1}%
+\contentsline {subsubsection}{\nonumberline 什么时候联系导师}{13}{subsubsection*.66}%
+\contentsline {subsubsection}{\nonumberline 联系前的准备}{14}{subsubsection*.68}%
+\contentsline {subsubsection}{\nonumberline 导师真正关心的两个问题}{14}{subsubsection*.70}%
+\contentsline {subsubsection}{\nonumberline 联系内容的基本结构(邮件逻辑)}{15}{subsubsection*.72}%
+\contentsline {subsubsection}{\nonumberline 回复解读与跟进策略}{15}{subsubsection*.74}%
+\contentsline {subsubsection}{\nonumberline 套磁的``升级路径''}{15}{subsubsection*.76}%
+\contentsline {subsubsection}{\nonumberline 联系节奏与长期关系维护}{16}{subsubsection*.78}%
+\contentsline {subsection}{\numberline {2.5.2}推荐信：用第三方视角呈现你}{16}{subsection.2.5.2}%
+\contentsline {subsubsection}{\nonumberline 核心原则}{16}{subsubsection*.80}%
+\contentsline {subsubsection}{\nonumberline 推荐信的标准结构}{16}{subsubsection*.82}%
+\contentsline {subsubsection}{\nonumberline 写作要点与常见误区}{17}{subsubsection*.84}%
+\contentsline {subsubsection}{\nonumberline 实际操作提醒}{17}{subsubsection*.86}%
+\contentsline {subsection}{\numberline {2.5.3}项目与文件管理：避免保研材料失控}{17}{subsection.2.5.3}%
+\contentsline {subsubsection}{\nonumberline 时间管理：为不确定性预留缓冲}{17}{subsubsection*.88}%
+\contentsline {subsubsection}{\nonumberline 文书管理：分阶段降低认知负荷}{17}{subsubsection*.90}%
+\contentsline {subsubsection}{\nonumberline 文件与命名规范(防低级错误)}{18}{subsubsection*.92}%
+\contentsline {subsubsection}{\nonumberline 提交前检查清单}{18}{subsubsection*.94}%
+\contentsline {subsection}{\numberline {2.5.4}情绪管理：在焦虑中保持判断力}{19}{subsection.2.5.4}%
+\contentsline {subsubsection}{\nonumberline 焦虑的普遍性：一种群体现象}{19}{subsubsection*.96}%
+\contentsline {subsubsection}{\nonumberline 焦虑的正面意义：它是一种信号}{19}{subsubsection*.98}%
+\contentsline {subsubsection}{\nonumberline 一个关键区分：情绪存在 ${\neq }$ 判断失效}{20}{subsubsection*.100}%
+\contentsline {subsubsection}{\nonumberline 关于焦虑缓解：本指南的边界说明}{20}{subsubsection*.102}%
+\contentsline {subsection}{\numberline {2.5.5}面试准备：认真准备,稳定发挥}{20}{subsection.2.5.5}%
+\contentsline {subsubsection}{\nonumberline 通过回答``引导提问''(合理暴露你的优势)}{20}{subsubsection*.104}%
+\contentsline {subsubsection}{\nonumberline 回答问题的基本要求(比内容更重要)}{21}{subsubsection*.106}%
+\contentsline {subsubsection}{\nonumberline 自我介绍：高度精炼的 1\textendash {}3 分钟}{21}{subsubsection*.108}%
+\contentsline {subsubsection}{\nonumberline 高频问题的准备方向}{21}{subsubsection*.110}%
+\contentsline {subsubsection}{\nonumberline 面试可能考察的能力维度}{22}{subsubsection*.112}%
+\contentsline {subsubsection}{\nonumberline 文献与英语准备}{22}{subsubsection*.114}%
+\contentsline {subsubsection}{\nonumberline 仪容、状态与态度}{22}{subsubsection*.116}%
+\contentsline {subsubsection}{\nonumberline 面试结束后的注意事项}{22}{subsubsection*.118}%
+\contentsline {section}{\numberline {2.6}为保研服务的本科生活}{22}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}文献阅读能力：从``读懂''到``讲明白''}{23}{subsection.2.6.1}%
+\contentsline {subsubsection}{\nonumberline \textbf {综述文献：先学会``怎么看''}}{23}{subsubsection*.120}%
+\contentsline {subsubsection}{\nonumberline \textbf {研究论文：先``自己设计'',再``看别人怎么做''}}{23}{subsubsection*.122}%
+\contentsline {subsubsection}{\nonumberline \textbf {从``能读''到``能讲''：能力跃迁的关键一步}}{23}{subsubsection*.124}%
+\contentsline {subsection}{\numberline {2.6.2}科研经历：尽早进入真实情境}{23}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}关于竞赛：集中投入,谨慎选择}{24}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}关于辅修的建议}{24}{subsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.6.5}英语}{24}{subsection.2.6.5}%
+\contentsline {subsection}{\numberline {2.6.6}资料搜集}{25}{subsection.2.6.6}%
+\contentsline {subsubsection}{\nonumberline \textcolor {color-4F81BD}{资料搜集是贯穿整个本科阶段的基础能力}}{25}{subsubsection*.126}%
+\contentsline {subsubsection}{\nonumberline \textcolor {color-4F81BD}{资料来源有明确的优先级,需要分清``结论''和``线索''}}{25}{subsubsection*.128}%
+\contentsline {subsubsection}{\nonumberline \textcolor {color-4F81BD}{关于咨询渠道：不必单打独斗}}{25}{subsubsection*.130}%
+\contentsline {subsection}{\numberline {2.6.7}绩点：制度中的硬通货}{25}{subsection.2.6.7}%
+\contentsline {subsection}{\numberline {2.6.8}方向与目标：看清赛道,再谈努力}{26}{subsection.2.6.8}%
+\contentsline {subsection}{\numberline {2.6.9}暑假学校}{26}{subsection.2.6.9}%
+\contentsline {section}{\numberline {2.7}各学校/研究所情报}{26}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}研究所系列}{26}{subsection.2.7.1}%
+\contentsline {subsubsection}{\nonumberline 中科院生物物理研究所(IBP,北京)}{26}{subsubsection*.132}%
+\contentsline {subsubsection}{\nonumberline 分子细胞科学卓越创新中心(上海生化所/生化与细胞所,SIBCB)}{27}{subsubsection*.134}%
+\contentsline {subsubsection}{\nonumberline 3. 中国科学院遗传与发育生物学研究所}{28}{subsubsection*.136}%
+\contentsline {subsubsection}{\nonumberline 4. 中科院深圳先进技术研究院｜合成生物学研究所}{29}{subsubsection*.138}%
+\contentsline {subsubsection}{\nonumberline 5. 生物与化学交叉研究中心(交叉中心)}{29}{subsubsection*.140}%
+\contentsline {subsubsection}{\nonumberline 6. 中科院微生物研究所(北京)}{30}{subsubsection*.142}%
+\contentsline {subsubsection}{\nonumberline 中科院青岛生物能源与过程研究所}{31}{subsubsection*.144}%
+\contentsline {subsubsection}{\nonumberline 天津工业生物技术研究所}{32}{subsubsection*.146}%
+\contentsline {subsection}{\numberline {2.7.2}中国高校系列}{33}{subsection.2.7.2}%
+\contentsline {subsubsection}{\nonumberline 吉林大学(直博经验)}{33}{subsubsection*.148}%
+\contentsline {subsubsection}{\nonumberline 浙江大学｜生命科学研究院(生研院)}{33}{subsubsection*.150}%
+\contentsline {subsubsection}{\nonumberline 3. 浙江大学｜转化医学研究院}{33}{subsubsection*.152}%
+\contentsline {subsubsection}{\nonumberline 复旦大学｜基础医学院(枫林校区)}{34}{subsubsection*.154}%
+\contentsline {subsubsection}{\nonumberline 复旦大学脑科学转化研究院}{34}{subsubsection*.156}%
+\contentsline {subsubsection}{\nonumberline 上海交通大学｜生命科学技术学院(闵行)}{34}{subsubsection*.158}%
+\contentsline {subsubsection}{\nonumberline 上海交通大学｜上海市免疫研究所}{35}{subsubsection*.160}%
+\contentsline {subsubsection}{\nonumberline 香港科技大学}{35}{subsubsection*.162}%
+\contentsline {subsubsection}{\nonumberline 西湖大学}{35}{subsubsection*.164}%
+\contentsline {subsubsection}{\nonumberline 北京协和}{35}{subsubsection*.166}%
+\contentsline {subsection}{\numberline {2.7.3}清北系与北京生命科学研究所}{37}{subsection.2.7.3}%
+\contentsline {subsubsection}{\nonumberline 北京生命科学研究所(含 TIMBR / PTN / 自招)}{37}{subsubsection*.168}%
+\contentsline {subsubsection}{\nonumberline 清华大学}{37}{subsubsection*.170}%
+\contentsline {subsubsection}{\nonumberline 北京大学｜基础医学院(医学部)}{38}{subsubsection*.172}%
+\contentsline {subsubsection}{\nonumberline 北京大学}{38}{subsubsection*.174}%
+\contentsline {section}{\numberline {2.8}研究领域情报}{39}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}合成生物学}{39}{subsection.2.8.1}%
+\contentsline {subsubsection}{\nonumberline 场域印象(院所/平台)}{39}{subsubsection*.176}%
+\contentsline {subsubsection}{\nonumberline 方向细分：PHA 材料}{39}{subsubsection*.178}%
+\contentsline {subsubsection}{\nonumberline 具体导师情报)}{39}{subsubsection*.180}%
+\contentsline {subsection}{\numberline {2.8.2}结构药理学}{39}{subsection.2.8.2}%
+\contentsline {subsubsection}{\nonumberline 与结构生物学的区别}{39}{subsubsection*.182}%
+\contentsline {subsubsection}{\nonumberline 三大高地(``药物所自己说的'',真实性未核)}{40}{subsubsection*.184}%
+\contentsline {subsubsection}{\nonumberline 国内团队情报(据经验者所知)}{40}{subsubsection*.186}%
+\contentsline {subsubsection}{\nonumberline 具体导师情报}{40}{subsubsection*.188}%
+\contentsline {subsection}{\numberline {2.8.3}免疫学}{40}{subsection.2.8.3}%
+\contentsline {subsubsection}{\nonumberline 总体判断}{40}{subsubsection*.190}%
+\contentsline {subsubsection}{\nonumberline 方向趋势}{41}{subsubsection*.192}%
+\contentsline {subsubsection}{\nonumberline 院校/团队印象(长名单整理版)}{41}{subsubsection*.194}%
+\contentsline {subsection}{\numberline {2.8.4}病原免疫(免疫的抓手方向)}{41}{subsection.2.8.4}%
+\contentsline {subsubsection}{\nonumberline 为什么选择``病原作为抓手''}{41}{subsubsection*.196}%
+\contentsline {subsubsection}{\nonumberline 主要平台与团队(经验口径)}{41}{subsubsection*.198}%
+\contentsline {subsubsection}{\nonumberline 更细情报}{42}{subsubsection*.200}%
+\contentsline {subsection}{\numberline {2.8.5}生物信息学}{42}{subsection.2.8.5}%
+\contentsline {subsubsection}{\nonumberline 定位与难点(经验视角)}{42}{subsubsection*.202}%
+\contentsline {subsubsection}{\nonumberline 导师例举(不完整)}{42}{subsubsection*.204}%
+\contentsline {subsubsection}{\nonumberline 就业印象(经验口径)}{42}{subsubsection*.206}%
+\contentsline {subsubsection}{\nonumberline 研究所建议}{42}{subsubsection*.208}%
+\contentsline {subsection}{\numberline {2.8.6}外泌体｜生物医学材料｜多组学}{42}{subsection.2.8.6}%
+\contentsline {subsubsection}{\nonumberline 外泌体}{42}{subsubsection*.210}%
+\contentsline {subsubsection}{\nonumberline 生物医学材料}{43}{subsubsection*.212}%
+\contentsline {subsubsection}{\nonumberline 多组学}{43}{subsubsection*.214}%
+\contentsline {subsection}{\numberline {2.8.7}工业生物制造}{43}{subsection.2.8.7}%
+\contentsline {subsubsection}{\nonumberline 行业与政策背景}{43}{subsubsection*.216}%
+\contentsline {subsubsection}{\nonumberline 推荐平台(清单)}{43}{subsubsection*.218}%
+\contentsline {subsubsection}{\nonumberline 发展去向(经验视角)}{43}{subsubsection*.220}%
+\contentsline {subsection}{\numberline {2.8.8}神经科学 / 脑科学}{44}{subsection.2.8.8}%
+\contentsline {subsubsection}{\nonumberline 总体画像}{44}{subsubsection*.222}%
+\contentsline {subsubsection}{\nonumberline 职业规划提示(经验口径)}{44}{subsubsection*.224}%
+\contentsline {subsubsection}{\nonumberline 国内平台格局(经验口径)}{44}{subsubsection*.226}%
+\contentsline {subsubsection}{\nonumberline 现实难点与细分}{44}{subsubsection*.228}%
+\contentsline {subsubsection}{\nonumberline 关于系统/认知/计算神经}{45}{subsubsection*.230}%
+\contentsline {subsubsection}{\nonumberline 经验者的选择逻辑}{45}{subsubsection*.232}%
+\contentsline {subsection}{\numberline {2.8.9}计算神经生物学}{45}{subsection.2.8.9}%
+\contentsline {subsubsection}{\nonumberline 就业视角(经验口径)}{45}{subsubsection*.234}%
+\contentsline {subsection}{\numberline {2.8.10}表观遗传学}{46}{subsection.2.8.10}%
+\contentsline {chapter}{\numberline {3}第二篇｜考研}{47}{chapter.3}%
+\contentsline {chapter}{\numberline {4}致谢}{49}{chapter.4}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
