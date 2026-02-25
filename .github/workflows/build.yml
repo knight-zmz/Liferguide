@@ -58,7 +58,7 @@ jobs:
         mkdir -p build/html
         if command -v make4ht &> /dev/null; then
           echo "✓ tex4ht found - converting to HTML..."
-          make4ht -d build/html lifeguide.tex "html5" 2>&1 || true
+          make4ht -u -x -f html5 -d build/html lifeguide.tex 2>&1 || true
           echo "✓ HTML conversion completed"
         else
           echo "⊘ tex4ht not found - HTML conversion skipped (optional)"
