@@ -97,7 +97,7 @@ body > div, body > main {
 }
 
 /* Push content to make room for sidebar */
-body {
+body.lifeguide-body {
   padding-left: 280px;
 }
 
