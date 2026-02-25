@@ -8,6 +8,7 @@ on:
     paths:
       - 'lifeguide.tex'
       - 'media/**'
+      - 'web/**'
       - '.github/workflows/build.yml'
   workflow_dispatch:
 
