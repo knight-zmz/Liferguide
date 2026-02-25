@@ -82,49 +82,49 @@ jobs:
             fi
           done
           python3 - << 'PY'
-          import re
-          from pathlib import Path
+import re
+from pathlib import Path
 
-          html_files = Path("build/html").glob("*.html")
-          toc_pattern = re.compile(
-            r"<div[^>]*(id=\"TOC\"|id=\"toc\"|class=\"tableofcontents\")[^>]*>(.*?)</div>",
-            re.DOTALL,
-          )
+html_files = Path("build/html").glob("*.html")
+toc_pattern = re.compile(
+  r"<div[^>]*(id=\"TOC\"|id=\"toc\"|class=\"tableofcontents\")[^>]*>(.*?)</div>",
+  re.DOTALL,
+)
 
-          def ensure_body_class(html):
-            match = re.search(r"<body([^>]*)>", html)
-            if not match:
-              return html
-            attrs = match.group(1)
-            if "class=" in attrs:
-              if "lifeguide-body" in attrs:
-                return html
-              new_attrs = re.sub(
-                r"class=\"([^\"]*)\"",
-                lambda m: "class=\"{} lifeguide-body\"".format(m.group(1)),
-                attrs,
-              )
-            else:
-              new_attrs = attrs + ' class="lifeguide-body"'
-            return html.replace(match.group(0), "<body{}>".format(new_attrs), 1)
+def ensure_body_class(html):
+  match = re.search(r"<body([^>]*)>", html)
+  if not match:
+    return html
+  attrs = match.group(1)
+  if "class=" in attrs:
+    if "lifeguide-body" in attrs:
+      return html
+    new_attrs = re.sub(
+      r"class=\"([^\"]*)\"",
+      lambda m: "class=\"{} lifeguide-body\"".format(m.group(1)),
+      attrs,
+    )
+  else:
+    new_attrs = attrs + ' class="lifeguide-body"'
+  return html.replace(match.group(0), "<body{}>".format(new_attrs), 1)
 
-          def promote_toc(html):
-            if "class=\"toc\"" in html:
-              return html
-            match = toc_pattern.search(html)
-            if not match:
-              return html
-            toc_html = match.group(2)
-            html = html[:match.start()] + html[match.end():]
-            html = re.sub(r"(<body[^>]*>)", r"\1\n<nav class=\"toc\">\n" + toc_html + "\n</nav>", html, count=1)
-            return html
+def promote_toc(html):
+  if "class=\"toc\"" in html:
+    return html
+  match = toc_pattern.search(html)
+  if not match:
+    return html
+  toc_html = match.group(2)
+  html = html[:match.start()] + html[match.end():]
+  html = re.sub(r"(<body[^>]*>)", r"\1\n<nav class=\"toc\">\n" + toc_html + "\n</nav>", html, count=1)
+  return html
 
-          for file_path in html_files:
-            text = file_path.read_text(encoding="utf-8", errors="ignore")
-            text = ensure_body_class(text)
-            text = promote_toc(text)
-            file_path.write_text(text, encoding="utf-8")
-          PY
+for file_path in html_files:
+  text = file_path.read_text(encoding="utf-8", errors="ignore")
+  text = ensure_body_class(text)
+  text = promote_toc(text)
+  file_path.write_text(text, encoding="utf-8")
+PY
         fi
 
     # 生成静态首页（用于 GitHub Pages 入口）
