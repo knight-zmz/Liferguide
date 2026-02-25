@@ -65,6 +65,17 @@ jobs:
         fi
       continue-on-error: true
 
+    - name: Add HTML styling and sidebar
+      run: |
+        if [ -d build/html ]; then
+          cp web/lifeguide.css build/html/lifeguide.css
+          for f in build/html/*.html; do
+            if [ -f "$f" ] && ! grep -q "lifeguide.css" "$f"; then
+              sed -i 's#</head>#  <link rel="stylesheet" href="lifeguide.css" />\n</head>#' "$f"
+            fi
+          done
+        fi
+
     - name: Create index.html for GitHub Pages
       run: |
         mkdir -p build
