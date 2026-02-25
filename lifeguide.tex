@@ -106,6 +106,10 @@
 \setlength{\headsep}{1mm}
 % endregion 模块E：全局排版预设（间距/列表/表格/标题层级）
 
+% region 模块J：内容块标题
+\newcommand{\blocktitle}[1]{\par\smallskip\textbf{#1}\par}
+% endregion 模块J：内容块标题
+
 % region 模块F：图片容错机制（缺图不阻断编译）
 % 若图片文件缺失，显示占位框并继续编译
 \let\origincludegraphics\includegraphics
@@ -355,7 +359,7 @@
 
 \subsection{\label{ref-011}关键时间轴}
 
-\subsubsection{本校基本流程(从大三下二月开始计时)：}
+\subsubsection{本校基本流程(从大三下二月开始计时)}
 
 \noindent\includegraphics[width=\linewidth]{media/image4.png}
 
@@ -422,7 +426,7 @@
 
 学院关于国优的通知一定能够给到大家,到时注意通知即可
 
-\subsubsection{特点：}
+\subsubsection{特点}
 
 \begin{itemize}
 \item 不占据学院原定保研名额
@@ -483,14 +487,14 @@
 
 学院关于直博的通知一定能够给到大家,到时注意通知即可
 
-\subsubsection{特点：}
+\subsubsection{特点}
 
 \begin{itemize}
 \item 占据学院原定保研名额
 \item 相对难度更低
 \end{itemize}
 
-\subsubsection{\textcolor{color-4F81BD}{直博好处：}}
+\subsubsection{直博好处}
 
 \begin{enumerate}
 \item 不用考研
@@ -635,7 +639,7 @@
 \item \textbf{补位阶段(夏令营后)} 适用于已拿优营、寻求定导,或部分院校的轮转与补录机会。
 \end{enumerate}
 
-\textbf{补充判断原则}
+\blocktitle{补充判断原则}
 \begin{itemize}
 \item 对于\textbf{直接定导、导师权力较大}的院校,提前联系可能直接影响是否入营
 \item 对于\textbf{研招办统一评优、需轮转}的院校,不联系导师通常不构成劣势
@@ -662,7 +666,7 @@
 \item 基于此形成了什么判断
 \end{itemize}
 \end{enumerate}
-\textbf{补充说明}\par
+\blocktitle{补充说明}
 当自身科研积累不足时,可通过阅读博士论文或毕业论文了解课题组真实研究内容,常规数据库即可满足需求。
 
 \subsubsection{导师真正关心的两个问题}
@@ -748,7 +752,7 @@
 \item 线下简短面谈
 \item 实验室实习(最高级)
 \end{enumerate}
-\textbf{实验室实习的核心价值}
+\blocktitle{实验室实习的核心价值}
 \begin{itemize}
 \item 提升熟悉度并展示能力
 \item 全面了解课题组运作方式
@@ -894,7 +898,7 @@
 
 \item 涉及签字、盖章、人工审核的材料务必提前处理
 \end{itemize}
-\textbf{管理示例：}
+\blocktitle{管理示例：}
 
 \begin{center}
 \includegraphics[width=\linewidth]{media/image9.png}\par\medskip
@@ -1077,7 +1081,7 @@
 
 文献阅读的核心目标,不是``看过'',而是完成一次能力跃迁：\textbf{从能理解文章内容,到能向他人讲清楚研究逻辑与价值。}
 
-\subsubsection{\textbf{综述文献：先学会``怎么看''}}
+\subsubsection{综述文献：先学会``怎么看''}
 
 在阅读初期,对文章质量的鉴别能力尚未成熟,建议优先从高质量综述入手：
 \begin{itemize}
@@ -1086,7 +1090,7 @@
 \end{itemize}
 等逐渐形成判断能力后,再根据个人兴趣自由拓展即可。
 
-\subsubsection{\textbf{研究论文：先``自己设计'',再``看别人怎么做''}}
+\subsubsection{研究论文：先``自己设计'',再``看别人怎么做''}
 
 阅读具体论文时,推荐一个简单但高效的步骤：
 \begin{itemize}
@@ -1096,7 +1100,7 @@
 \end{itemize}
 这种``先构建、再对照''的方式,往往比直接跟着文章走收获更大。
 
-\subsubsection{\textbf{从``能读''到``能讲''：能力跃迁的关键一步}}
+\subsubsection{从``能读''到``能讲''：能力跃迁的关键一步}
 
 真正的能力提升,往往发生在\textbf{讲给别人听的时候}。
 \begin{itemize}
@@ -1127,7 +1131,7 @@
 
 在大一、大二阶段,不少同学会把大量精力投入到各类竞赛中。但回顾来看,\textbf{真正对科研与长期发展有帮助的竞赛并不多}。
 
-\textbf{竞赛的现实价值判断}
+\blocktitle{竞赛的现实价值判断}
 \begin{itemize}
 \item \textbf{创新类竞赛}：
 \begin{itemize}
@@ -1147,7 +1151,7 @@
 \item 与真实科研流程存在明显差异
 \item 对绘画、计算机、英语等特长者更友好,拥有这一部分技能更有机会进入
 \end{itemize}
-\textbf{常见误区提醒}
+\blocktitle{常见误区提醒}
 \begin{itemize}
 \item 有人希望通过竞赛为绩点不足``加分''以获得保研资格
 \item 但竞赛本身往往包含大量非科研事务
@@ -1173,24 +1177,24 @@
 \subsection{\label{ref-034}英语}
 
 \begin{itemize}
-\item 硬门槛''：上海一些中科院系统与 C9 高校常见六级门槛；六级未过可能连网申都无法提交(建议尽早补齐语言短板)
-\item 如果六级在保研前没有通过,考虑通过雅思托福获得额外的机会(这是常见路径)。
+\item \textbf{硬门槛}：上海一些中科院系统与 C9 高校常见六级门槛；六级未过可能连网申都无法提交(建议尽早补齐语言短板)
+\item \textbf{补充路径}：如果六级在保研前没有通过,考虑通过雅思托福获得额外的机会(这是常见路径)。
 \end{itemize}
 \subsection{\label{ref-035}资料搜集}
 
-\subsubsection{\textcolor{color-4F81BD}{资料搜集是贯穿整个本科阶段的基础能力}}
+\subsubsection{资料搜集是贯穿整个本科阶段的基础能力}
 
 在吉大读书期间,很多关键信息并不会被反复提醒,需要你长期、主动地去关注学校的电子校务平台与学院通知。例如辅修、出国交流、教学安排调整等事项,往往都有明确窗口期,一旦错过就无法补救。
 
 到了保研或考研阶段,这种能力会被进一步放大：目标院校的报名时间、材料要求、门槛条件和考核形式,都需要你提前、持续地自行搜集和核对。
 
-\subsubsection{\textcolor{color-4F81BD}{资料来源有明确的优先级,需要分清``结论''和``线索''}}
+\subsubsection{资料来源有明确的优先级,需要分清``结论''和``线索''}
 
 官方渠道(学校与学院官网、招生简章、系统公告)永远是结论来源,应作为最终依据；知乎、小红书等平台更多只能作为线索,用来发现``可能存在的机会或坑点'',但不能直接采信。
 
 在此之外,人际咨询是非常高效的补充方式。学长学姐和老师往往能帮助你理解规则在现实中的运行方式,而不仅是文件上的表述。《金榜题名之后：大学生出路分化之谜》中也提到,能否主动了解并学习大学中的运行规则,会显著影响个体的路径选择,这种咨询本身就是一种能力,不必有心理负担。
 
-\subsubsection{\textcolor{color-4F81BD}{关于咨询渠道：不必单打独斗}}
+\subsubsection{关于咨询渠道：不必单打独斗}
 
 ``学生物的葫芦娃''长期积累了多位学长学姐的公开经验入口。你可以在公众号后台回复关键词,我们可以帮助你对接到有相关经历的学长学姐,例如 iGEM 相关经验、在王垒老师课题组参与科研训练的经历等。通过这种方式,可以更高效地缩小信息差,把``到处打听''变成可重复、可验证的资料获取路径。
 
@@ -1260,26 +1264,26 @@
 \subsection{\label{ref-040}研究所系列}
 
 \begin{enumerate}
-\item \textbf{中科院生物物理研究所(IBP,北京)}
+\item \textbf{\textcolor{title-section}{中科院生物物理研究所(IBP,北京)}}
 
-\textbf{整体印象}
+\blocktitle{整体印象}
 \begin{itemize}
 \item 夏令营体验总体``条件强、实力硬、行政效率高'',实验条件被评价为``研究所级别的完善配置''
 \item 开营仪式曾提及(当年 7 月)所内已有多篇高水平论文产出(如 SCN 论文数量被提到过)
 \item 方向覆盖面较广：生物物理所在蛋白质科学、表观遗传学、脑与认知科学、感染与免疫、核酸生物学、蛋白质与多肽药物等学科领域取得了一系列重要研究成果。生物物理所拥有生物大分子、表观遗传调控与干预、脑与认知科学三个重点实验室和生物智能多学科交叉中心。
 \end{itemize}
-\textbf{科研与培养}
+\blocktitle{科研与培养}
 \begin{itemize}
 \item 被评价为``老牌强所,中科院 Top 梯队'',研究整体偏结构相关,配套仪器与经费较充足(也取决于具体课题组)
 \item 导师选择多为轮转制；可提前以毕设/实习形式接触课题组(需关注相关实习消息)
 \end{itemize}
-\textbf{夏令营流程与体验细节}
+\blocktitle{夏令营流程与体验细节}
 \begin{itemize}
 \item 行政体系被评价为``围绕学生与导师运转,效率拉满''
 \item 出结果通知快,反馈较明确：未通过/候补等会告知,便于调整申请策略
 \item 学长学姐参与度高：经验分享、活动互动(演出、桌游等),氛围相对活跃
 \end{itemize}
-\textbf{生活与住宿}
+\blocktitle{生活与住宿}
 \begin{itemize}
 \item 研一：雁栖湖校区(宿舍 1\textendash{}3 人间),地点偏；后续回所区住宿(宿舍 2\textendash{}4 人间)
 \item 过渡宿舍(经验记录)：交叉、南里、中科联(性别/房型差异明显)
@@ -1291,40 +1295,40 @@
 
 \item 食堂：有经验者直言``难吃且贵''(主观评价,可作参考点)
 \end{itemize}
-\textbf{潜在坑点}
+\blocktitle{潜在坑点}
 \begin{itemize}
 \item 有经验者提到：感染与免疫重点实验室部分老师很强,但也听闻过性别偏见等负面评价(多为口碑/平台讨论),建议自行多渠道核实
 \end{itemize}
-\item \textbf{分子细胞科学卓越创新中心(上海生化所/生化与细胞所,SIBCB)}
+\item \textbf{\textcolor{title-section}{分子细胞科学卓越创新中心(上海生化所/生化与细胞所,SIBCB)}}
 
-\textbf{整体印象}
+\blocktitle{整体印象}
 \begin{itemize}
 \item 普遍评价：科研实力强、待遇好；``卷''与英语要求高的口碑突出
 \item 系统生物方向被经验者称为中科院系统内强势阵地之一
 \end{itemize}
-\textbf{申请与筛选机制(经验者重点情报)}
+\blocktitle{申请与筛选机制(经验者重点情报)}
 \begin{itemize}
 \item 有``提前线下面试''模式：通过后较容易获得夏令营邀请函；不走提前面试则更难进入夏令营
 \item 英语要求较高(尤其在面试环节)
 \end{itemize}
-\textbf{培养强度与竞争}
+\blocktitle{培养强度与竞争}
 \begin{itemize}
 \item 轮转竞争``非常卷''：存在``多人竞争一个导师名额''的体感(大牛组更明显)
 \item 住宿方面有传闻称床位紧张、宿舍人数偏多(属于``听说'',以当年安排为准)
 \end{itemize}
-\textbf{适配人群}
+\blocktitle{适配人群}
 \begin{itemize}
 \item 对干细胞/系统方向兴趣强
 \item 能接受较高强度与英语门槛
 \end{itemize}
-\textbf{待遇}
+\blocktitle{待遇}
 \begin{itemize}
 \item 硕士生：3500\textendash{}4200 元/月
 \item 博士生：5000\textendash{}6500 元/月
 \item 医疗保障：设立医疗统筹基金；每年例行体检；购买意外保险；加入上海市大学生医疗保障计划
 \item 餐费补贴：200 元/月
 \end{itemize}
-\textbf{研究领域}
+\blocktitle{研究领域}
 \begin{itemize}
 \item 基因调控、RNA 和表观遗传学
 \item 蛋白质科学
@@ -1332,28 +1336,28 @@
 \item 细胞与干细胞生物学
 \item 癌症和其他重大疾病
 \end{itemize}
-\textbf{架构}
+\blocktitle{架构}
 
 \begin{center}
 \includegraphics[width=\linewidth]{media/image11.jpg}
 \end{center}
 
-\item \textbf{中国科学院遗传与发育生物学研究所}
+\item \textbf{\textcolor{title-section}{中国科学院遗传与发育生物学研究所}}
 
-\textbf{国家重点实验室}
+\blocktitle{国家重点实验室}
 \begin{itemize}
 \item 植物基因组学国家重点实验室
 \item 植物细胞与染色体工程国家重点实验室
 \item 分子发育生物学国家重点实验室
 \end{itemize}
-\item \textbf{中科院深圳先进技术研究院｜合成生物学研究所}
+\item \textbf{\textcolor{title-section}{中科院深圳先进技术研究院｜合成生物学研究所}}
 
-\textbf{夏令营整体印象}
+\blocktitle{夏令营整体印象}
 \begin{itemize}
 \item 部分经验者评价为``资源足、安排豪华''：机票报销、提供住宿、夏令营包含深圳一日游
 \item 深圳区位带来经费与设施优势；部分老师与产业结合紧密,就业导向与资源更丰富
 \end{itemize}
-\textbf{导师与课题组生态}
+\blocktitle{导师与课题组生态}
 \begin{itemize}
 \item 多为海归 PI,课题组规模相对小
 \begin{itemize}
@@ -1363,14 +1367,14 @@
 
 \item 总体氛围被描述为``老师很 nice,值得一看''
 \end{itemize}
-\item \textbf{生物与化学交叉研究中心(交叉中心)}
+\item \textbf{\textcolor{title-section}{生物与化学交叉研究中心(交叉中心)}}
 
-\textbf{方向与资源}
+\blocktitle{方向与资源}
 \begin{itemize}
 \item 实验条件好、经费充足；整体方向偏神经退行性疾病相关
 \item 园区位于浦东(偏),临近上科大,周边有上海脑科学与类脑研究中心等平台
 \end{itemize}
-\textbf{导师生态(并列信息保留)}
+\blocktitle{导师生态(并列信息保留)}
 \begin{itemize}
 \item 导师阵容包含资深大 PI 与多位新回国老师
 \begin{itemize}
@@ -1380,16 +1384,16 @@
 \end{itemize}
 
 \end{itemize}
-\textbf{学生课题形态}
+\blocktitle{学生课题形态}
 \begin{itemize}
 \item 课题可能偏``独立课题制''(一人一题)
 \end{itemize}
-\textbf{招生与夏令营策略情报}
+\blocktitle{招生与夏令营策略情报}
 \begin{itemize}
 \item 优营群体中 985 占比高的体感较强；吉大同学存在相对优势
 \item 可能要求签署``确认接受 offer''协议(经验者认为原则上法律效力有限,且不涉及放弃其他 offer 等),仍建议谨慎阅读条款
 \end{itemize}
-\textbf{学习生活条件}
+\blocktitle{学习生活条件}
 
 \begin{center}
 \includegraphics[width=\linewidth]{media/image12.png}
@@ -1399,9 +1403,9 @@
 \item 研究形态：小分子化药；2\textendash{}4 楼生物,5 楼化学
 \item 地理位置：上海浦东新区,较偏；上科大旁；园区内有上海脑科学与类脑研究中心
 \end{itemize}
-\item \textbf{中科院微生物研究所(北京)}
+\item \textbf{\textcolor{title-section}{中科院微生物研究所(北京)}}
 
-\textbf{整体印象}
+\blocktitle{整体印象}
 \begin{itemize}
 \item 微生物方向强,但部分实验设施被评价为不如上海一些院校
 \item 老师水平差异较大：既有优秀导师,也有``坑组''风险
@@ -1410,7 +1414,7 @@
 \end{itemize}
 
 \end{itemize}
-\textbf{特别提醒}
+\blocktitle{特别提醒}
 \begin{itemize}
 \item 部分专硕同学转博路径可能存在不确定性,需要提前问清政策与名额逻辑
 \end{itemize}
@@ -1419,20 +1423,20 @@
 \includegraphics[width=\linewidth]{media/image13.png}
 \end{center}
 
-\item \textbf{中科院青岛生物能源与过程研究所}
+\item \textbf{\textcolor{title-section}{中科院青岛生物能源与过程研究所}}
 
 \begin{center}
 \includegraphics[width=\linewidth]{media/image14.jpg}\par\medskip
 \includegraphics[width=\linewidth]{media/image15.jpg}
 \end{center}
 
-\item \textbf{天津工业生物技术研究所}
+\item \textbf{\textcolor{title-section}{天津工业生物技术研究所}}
 
-\textbf{简介：}
+\blocktitle{简介：}
 
 中国科学院天津工业生物技术研究所是由中国科学院和天津市人民政府 共建、从事生物技术创新推动工业领域生态发展的科研机构。 其定位是：以生物设计为核心,开展工业生物技术战略性、前瞻性的基础与应用基础研究,集聚工业生物科技力量, 创新生物产业关键核心技术与重大颠覆性技术,构建工业经济发展的生 态路线,服务我国绿色生物经济与社会经济可持续的发展。
 
-\textbf{代表性工作：}
+\blocktitle{代表性工作：}
 \begin{enumerate}
 \item 二氧化碳到淀粉的从头合成(Science,373,1523-1527(2021),被央视专门报道过)
 \item 将植物基因组装、编辑到啤酒酵母细胞中,构建出在啤酒发酵罐中制造植物物质的新路径,实现了人参、天麻、 红景天、灯盏花、玫瑰、香紫苏等近50种药用、经济植物有效组分的异源细胞合成。 
@@ -1440,7 +1444,7 @@
 \item 使用体外多酶分子机器技术建立肌醇合成新路线,减少磷污染99\%,降低能耗98\%、降低成本75\%,支撑合作 企业建成万吨级绿色生物合成生产线,成为全球最大的肌醇生产基地。
 \item 获得具有自主知识产权的高性能工业菌种,构建了氨基酸工业菌种定制研发技术体系,创建了赖氨酸、谷氨酸、 缬氨酸等多个自主知识产权菌株,多项技术实现工业应用
 \end{enumerate}
-\textbf{著名导师}
+\blocktitle{著名导师}
 
 
 \noindent\includegraphics[width=\linewidth]{media/image16.png}
@@ -1449,70 +1453,71 @@
 
 \subsection{\label{ref-041}中国高校系列}
 
-\subsubsection{吉林大学(直博经验)}
+\begin{enumerate}
+\item \textbf{\textcolor{title-section}{吉林大学(直博经验)}}
 
-\textbf{面试形式}
+\blocktitle{面试形式}
 \begin{itemize}
 \item 可能随机抽取英文文献,现场``读一句译一句''
 \item 随后对大创/科研经历追问较细,并扩展到心态、生活、动机(为何直博等)与发散提问
 \end{itemize}
-\textbf{过程体验与建议}
+\blocktitle{过程体验与建议}
 \begin{itemize}
 \item 申请过程中被拒多次很常见,应做好情绪与节奏管理；对每场面试保持礼貌与感谢
 \item 申请周期较长时,更重视身体状态与恢复
 \end{itemize}
-\textbf{奖学金及补助}
+\blocktitle{奖学金及补助}
 
 直博奖学金2-5w国家补助2500/月${\times}$10课题组补助0-2000/月
 
-\subsubsection{浙江大学｜生命科学研究院(生研院)}
+\item \textbf{\textcolor{title-section}{浙江大学｜生命科学研究院(生研院)}}
 
-\textbf{资源与制度}
+\blocktitle{资源与制度}
 \begin{itemize}
 \item ``有钱、实验室新、条件强'',不少课题组配套齐全(如独立细胞间等)
 \item 导师制度偏轮转：可能需要轮转多个实验室且周期较长(如 3 个实验室、每次约 2 个月)
 \item 行政安排细致舒适；报销政策较友好(车费/机票等以当年通知为准)
 \end{itemize}
-\textbf{强度与氛围}
+\blocktitle{强度与氛围}
 \begin{itemize}
 \item 整体氛围``卷且累'',存在延毕现象；有老师会明确表达科研强度预期
 \end{itemize}
-\textbf{策略性信息}
+\blocktitle{策略性信息}
 \begin{itemize}
 \item 常来本校宣讲,可能存在提前面试/提前发邀请函机会；有短板、常规申请难进者可抓住窗口
 \item 有``海王''口碑(覆盖广、选择多的体感),建议对 offer 效力与后续流程保持清醒判断
 \end{itemize}
-\subsubsection{3. 浙江大学｜转化医学研究院}
+\item \textbf{\textcolor{title-section}{浙江大学｜转化医学研究院}}
 
-\textbf{方向与面试难度}
+\blocktitle{方向与面试难度}
 \begin{itemize}
 \item 转化医学国内较强
 \item 面试可能包含较长时间纯英文交流(如 40+ 分钟),英语是硬考验
 \item 存在``优营 ${\neq}$ 最终录取''：不少学院/研究院仍需九推阶段再次面试或笔试,优营更像``有限录取/资格''
 \end{itemize}
-\textbf{住宿}
+\blocktitle{住宿}
 \begin{itemize}
 \item 有经验者记录为 4 人间,面积约等同大学城宿舍体感(以当年安排为准)
 \end{itemize}
-\subsubsection{复旦大学｜基础医学院(枫林校区)}
+\item \textbf{\textcolor{title-section}{复旦大学｜基础医学院(枫林校区)}}
 
-\textbf{科研与平台}
+\blocktitle{科研与平台}
 \begin{itemize}
 \item 校区小但配套完备；实验室面积体感略小
 \item 基础医学全国梯队强(经验者提到``第二''的口碑)
 \item 对法医、中西医结合等方向感兴趣者可关注(生科名额可能较少)
 \end{itemize}
-\textbf{宿舍与生活}
+\blocktitle{宿舍与生活}
 \begin{itemize}
 \item 宿舍 4 人间,独卫浴,空调与洗衣机,新装修体感好
 \item 枫林位于徐汇区,周边资源丰富,交通便利
 \end{itemize}
-\textbf{名额与直博提醒}
+\blocktitle{名额与直博提醒}
 \begin{itemize}
 \item 部分老师博士名额可能被组内硕士占用；想直博者建议提前问清导师名额结构
-\item 纯博直招数量可能不多,但硕博连读仍可获得博士学位(路径差异需提前明确)``
+\item 纯博直招数量可能不多,但硕博连读仍可获得博士学位(路径差异需提前明确)
 \end{itemize}
-\subsubsection{复旦大学脑科学转化研究院}
+\item \textbf{\textcolor{title-section}{复旦大学脑科学转化研究院}}
 
 \begin{itemize}
 \item 复旦新建,实验条件很好,占新楼 2 层整层
@@ -1521,18 +1526,18 @@
 \item 宿舍：四人寝,上床下桌；校园工作区与生活区分开；校区较小
 \item 教师阵容：段树民院士(日常不在,线上组会)+ 2 位杰青(挖的)+ 1 位优青彭勃(年轻,院长助理,学术骨干,多数学术报告由其邀请；人 nice；组会全英交流；2 博后；团队较其他 PI 更成熟)+ 其他海外回国年轻 PI
 \end{itemize}
-\subsubsection{上海交通大学｜生命科学技术学院(闵行)}
+\item \textbf{\textcolor{title-section}{上海交通大学｜生命科学技术学院(闵行)}}
 
-\textbf{平台与条件}
+\blocktitle{平台与条件}
 \begin{itemize}
 \item 生物学学科评估 A+ 口碑；微生物方向有国重与院士团队
 \item 学院楼群规模大,实验室宽敞；闵行校区很大,通勤依赖校车/自行车/电动车
 \end{itemize}
-\textbf{区位与生活}
+\blocktitle{区位与生活}
 \begin{itemize}
 \item 校区偏(郊区体感),生活便利度一般；但物价仍是上海水平
 \end{itemize}
-\textbf{招生政策}
+\blocktitle{招生政策}
 \begin{itemize}
 \item 政策偏直博
 \begin{itemize}
@@ -1544,18 +1549,18 @@
 \item 若面试排名不占优但仍想去：尽快联系导师,明确询问其学硕/直博名额数量
 \item 分营多：时间与内容不一,需要提前核对
 \end{itemize}
-\subsubsection{上海交通大学｜上海市免疫研究所}
+\item \textbf{\textcolor{title-section}{上海交通大学｜上海市免疫研究所}}
 
-\textbf{平台与国际化氛围}
+\blocktitle{平台与国际化氛围}
 \begin{itemize}
 \item 临床资源强,附属医院体系优秀；研究所氛围相对国际化
 \item 曾有高水平免疫学交流活动；有海外导师背景(经验口径)
 \end{itemize}
-\textbf{就业面}
+\blocktitle{就业面}
 \begin{itemize}
 \item 可偏基础研究,也可向附属医院体系延展,就业口径更宽
 \end{itemize}
-\subsubsection{香港科技大学}
+\item \textbf{\textcolor{title-section}{香港科技大学}}
 
 \begin{itemize}
 \item 香港科技大学(The Hong Kong University of Science and Technology)
@@ -1564,54 +1569,57 @@
 \item 学费：4w/年;奖学金：1.5w/月(PhD) 1w/月(MPhi)
 \item 语言要求：雅思不低于 6.5(5.5)或托福不低于 8(原文如此,保留原表述)
 \end{itemize}
-\subsubsection{西湖大学}
+\item \textbf{\textcolor{title-section}{西湖大学}}
 
-\textbf{优点}
+\blocktitle{优点}
 \begin{itemize}
 \item 开放、包容
 \item 豪华宿舍
 \end{itemize}
-\textbf{缺点}
+\blocktitle{缺点}
 \begin{itemize}
 \item ``双非''
 \item 建校时间较短
 \item 交通不太方便
 \end{itemize}
-\textbf{其他特点(待确认)}
+\blocktitle{其他特点(待确认)}
 \begin{itemize}
 \item 年轻的导师
 \item 不受毕业年限的限制
 \item 不鼓励 PI 拉横向项目
 \end{itemize}
-\subsubsection{北京协和}
+\item \textbf{\textcolor{title-section}{北京协和}}
 
-\textbf{介绍}
+\blocktitle{介绍}
 
 中国医学科学院成立于1956年,北京协和医学院成立于1917年,中国医学科学院北京协和医学院自1957年起实行院校合一的管理体制,是我国最高医学研究机构和最高医学教育机构。
 
-\textbf{直属研究所及医院}
+\blocktitle{直属研究所及医院}
 
 \noindent\includegraphics[width=\linewidth]{media/image17.png}     
 
 \noindent\includegraphics[width=\linewidth]{media/image18.jpg}
 
-\textbf{报名条件}
+\blocktitle{报名条件}
 
 \begin{center}
 \includegraphics[width=0.9\textwidth]{media/image19.jpg}\par\medskip
 \includegraphics[width=0.9\textwidth]{media/image20.png}
 \end{center}
+
+\end{enumerate}
+
 \subsection{\label{ref-042}清北系与北京生命科学研究所}
 
 \subsubsection{北京生命科学研究所(含 TIMBR / PTN / 自招)}
 
-\textbf{项目与学籍机制}
+\blocktitle{项目与学籍机制}
 \begin{itemize}
 \item 平台分项目：TIMBR、PTN、自招
 \item 学籍与所投项目绑定：TIMBR 对应清华学籍；PTN 可能对应 P/T/N 相关学校学籍；自招可能对应中农/协和等
 \item 待遇与平台资源``顶配''口碑强；住宿与食堂体验较好(如周末菜价趣闻等,偏口碑信息)
 \end{itemize}
-\textbf{PTN 特点}
+\blocktitle{PTN 特点}
 \begin{itemize}
 \item 入选后可在清华、北大、NIBS 等平台轮转选导师
 \item 导师实力与经费资源被认为非常强
@@ -1682,7 +1690,7 @@
 \begin{itemize}
 \item 在 \textbf{PHA 材料}领域：经验者认为 \textbf{清华}处于世界顶尖水平
 \end{itemize}
-\subsubsection{具体导师情报)}
+\subsubsection{具体导师情报}
 
 \begin{itemize}
 \item \textbf{导师}：清华大学 陈国强教授

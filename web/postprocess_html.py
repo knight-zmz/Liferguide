@@ -33,7 +33,13 @@ def promote_toc(html: str) -> str:
         return html
     toc_html = match.group(2)
     html = html[:match.start()] + html[match.end():]
-    html = re.sub(r"(<body[^>]*>)", r"\1\n<nav class=\"toc\">\n" + toc_html + "\n</nav>", html, count=1)
+    html = re.sub(
+        r"(<body[^>]*>)",
+        r"\1\n<button class=\"toc-toggle\" type=\"button\" aria-expanded=\"true\">目录</button>\n"
+        r"<nav class=\"toc\">\n" + toc_html + "\n</nav>",
+        html,
+        count=1,
+    )
     return html
 
 
@@ -50,6 +56,21 @@ def main() -> int:
         text = file_path.read_text(encoding="utf-8", errors="ignore")
         text = ensure_body_class(text)
         text = promote_toc(text)
+        if "toc-toggle" in text and "toc-collapsed" not in text:
+            text = re.sub(
+                r"</body>",
+                "<script>"
+                "(function(){var b=document.querySelector('.toc-toggle');"
+                "if(!b){return;}"
+                "b.addEventListener('click',function(){"
+                "document.body.classList.toggle('toc-collapsed');"
+                "var expanded=!document.body.classList.contains('toc-collapsed');"
+                "b.setAttribute('aria-expanded', expanded ? 'true' : 'false');"
+                "});})();"
+                "</script></body>",
+                text,
+                count=1,
+            )
         file_path.write_text(text, encoding="utf-8")
     return 0
 

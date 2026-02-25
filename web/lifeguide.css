@@ -56,12 +56,14 @@ body > div, body > main {
   top: 0;
   left: 0;
   height: 100vh;
-  width: 260px;
+  width: 280px;
   overflow-y: auto;
   padding: 2.5rem 1.5rem;
   background: var(--sidebar);
   border-right: 1px solid var(--border);
   box-shadow: 8px 0 30px var(--shadow);
+  transition: transform 0.2s ease;
+  z-index: 20;
 }
 
 #toc h2, #TOC h2, #tableofcontents h2, .tableofcontents h2, nav.toc h2 {
@@ -76,6 +78,21 @@ body > div, body > main {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+#toc ul ul, #TOC ul ul, #tableofcontents ul ul, .tableofcontents ul ul, nav.toc ul ul {
+  margin-left: 0.75rem;
+  padding-left: 0.75rem;
+  border-left: 1px solid var(--border);
+}
+
+#toc ul ul a, #TOC ul ul a, #tableofcontents ul ul a, .tableofcontents ul ul a, nav.toc ul ul a {
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+#toc ul ul ul a, #TOC ul ul ul a, #tableofcontents ul ul ul a, .tableofcontents ul ul ul a, nav.toc ul ul ul a {
+  font-size: 0.84rem;
 }
 
 #toc li, #TOC li, #tableofcontents li, .tableofcontents li, nav.toc li {
@@ -97,8 +114,43 @@ body > div, body > main {
 }
 
 /* Push content to make room for sidebar */
-body.lifeguide-body {
-  padding-left: 280px;
+body.lifeguide-body > div,
+body.lifeguide-body > main {
+  margin-left: 300px;
+  margin-right: 2rem;
+  max-width: 900px;
+}
+
+/* Sidebar toggle button */
+.toc-toggle {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 30;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--paper);
+  color: var(--accent);
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: 0 10px 20px var(--shadow);
+}
+
+/* Collapsed sidebar */
+body.toc-collapsed nav.toc,
+body.toc-collapsed #toc,
+body.toc-collapsed #TOC,
+body.toc-collapsed #tableofcontents,
+body.toc-collapsed .tableofcontents {
+  transform: translateX(-110%);
+}
+
+body.toc-collapsed > div,
+body.toc-collapsed > main {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  max-width: 980px;
 }
 
 /* Headings */
@@ -166,9 +218,6 @@ blockquote {
 
 /* Responsive */
 @media (max-width: 980px) {
-  body {
-    padding-left: 0;
-  }
   #toc, #TOC, #tableofcontents, .tableofcontents, nav.toc {
     position: static;
     width: auto;
@@ -179,5 +228,9 @@ blockquote {
   body > div, body > main {
     margin: 0 1rem 2rem;
     padding: 2rem 1.5rem 3rem;
+  }
+  .toc-toggle {
+    position: static;
+    margin: 1rem 1rem 0;
   }
 }
