@@ -93,16 +93,22 @@ body.lifeguide-body main.content > *:first-child {
 }
 
 #toc ul ul, #TOC ul ul, #tableofcontents ul ul, .tableofcontents ul ul, nav.toc ul ul {
-  margin-left: 0.75rem;
-  padding-left: 0.75rem;
+  margin-left: 0.55rem;
+  padding-left: 0.55rem;
   border-left: 1px solid var(--border);
 }
 
+#toc li.tocpart > a,
+#TOC li.tocpart > a,
 nav.toc li.tocpart > a,
+#toc li.tocchapter > a,
+#TOC li.tocchapter > a,
 nav.toc li.tocchapter > a {
   font-weight: 600;
 }
 
+#toc li.tocpart > a,
+#TOC li.tocpart > a,
 nav.toc li.tocpart > a {
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -110,16 +116,22 @@ nav.toc li.tocpart > a {
   color: var(--muted);
 }
 
+#toc li.tocsection > a,
+#TOC li.tocsection > a,
 nav.toc li.tocsection > a {
   padding-left: 0.6rem;
 }
 
+#toc li.tocsubsection > a,
+#TOC li.tocsubsection > a,
 nav.toc li.tocsubsection > a {
   padding-left: 1.1rem;
   font-size: 0.9rem;
   color: var(--muted);
 }
 
+#toc li.tocsubsubsection > a,
+#TOC li.tocsubsubsection > a,
 nav.toc li.tocsubsubsection > a {
   padding-left: 1.5rem;
   font-size: 0.85rem;
@@ -136,7 +148,12 @@ nav.toc li.tocsubsubsection > a {
 }
 
 #toc li, #TOC li, #tableofcontents li, .tableofcontents li, nav.toc li {
-  margin: 0.4rem 0;
+  margin: 0.2rem 0;
+}
+
+#toc a, #TOC a, #tableofcontents a, .tableofcontents a, nav.toc a {
+  line-height: 1.35;
+  padding: 0.1rem 0.1rem;
 }
 
 #toc a, #TOC a, #tableofcontents a, .tableofcontents a, nav.toc a {
@@ -146,6 +163,26 @@ nav.toc li.tocsubsubsection > a {
   line-height: 1.4;
   padding: 0.2rem 0.1rem;
   border-radius: 4px;
+}
+
+#toc > ul > li > a,
+#TOC > ul > li > a,
+nav.toc > ul > li > a {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+#toc ul ul > li > a,
+#TOC ul ul > li > a,
+nav.toc ul ul > li > a {
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+#toc ul ul ul > li > a,
+#TOC ul ul ul > li > a,
+nav.toc ul ul ul > li > a {
+  font-size: 0.84rem;
 }
 
 #toc a:hover, #TOC a:hover, #tableofcontents a:hover, .tableofcontents a:hover, nav.toc a:hover {
