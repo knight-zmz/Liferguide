@@ -90,12 +90,14 @@ body.lifeguide-body main.content > *:first-child {
   list-style: none;
   margin: 0;
   padding: 0;
+  counter-reset: toc;
 }
 
 #toc ul ul, #TOC ul ul, #tableofcontents ul ul, .tableofcontents ul ul, nav.toc ul ul {
-  margin-left: 0.6rem;
-  padding-left: 0.7rem;
-  border-left: 1px dashed var(--border);
+  margin-left: 0.7rem;
+  padding-left: 0.8rem;
+  border-left: 2px solid var(--border);
+  counter-reset: toc;
 }
 
 #toc li.tocpart > a,
@@ -148,21 +150,28 @@ nav.toc li.tocsubsubsection > a {
 }
 
 #toc li, #TOC li, #tableofcontents li, .tableofcontents li, nav.toc li {
-  margin: 0.12rem 0;
-}
-
-#toc a, #TOC a, #tableofcontents a, .tableofcontents a, nav.toc a {
-  line-height: 1.3;
-  padding: 0.1rem 0.2rem;
+  margin: 0.1rem 0;
+  counter-increment: toc;
 }
 
 #toc a, #TOC a, #tableofcontents a, .tableofcontents a, nav.toc a {
   display: block;
   color: var(--ink);
-  font-size: 0.95rem;
-  line-height: 1.4;
-  padding: 0.2rem 0.1rem;
+  font-size: 0.93rem;
+  line-height: 1.3;
+  padding: 0.1rem 0.15rem;
   border-radius: 4px;
+}
+
+#toc li > a::before,
+#TOC li > a::before,
+nav.toc li > a::before {
+  content: counters(toc, ".") " ";
+  display: inline-block;
+  min-width: 2.2em;
+  margin-right: 0.2rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
 }
 
 #toc > ul > li > a,
@@ -192,15 +201,6 @@ nav.toc ul ul ul > li > a {
 nav.toc ul ul ul ul > li > a {
   font-size: 0.8rem;
   color: #7a8188;
-}
-
-#toc ul ul > li > a::before,
-#TOC ul ul > li > a::before,
-nav.toc ul ul > li > a::before {
-  content: "\203A";
-  display: inline-block;
-  margin-right: 0.35rem;
-  color: var(--border);
 }
 
 #toc a:hover, #TOC a:hover, #tableofcontents a:hover, .tableofcontents a:hover, nav.toc a:hover {
