@@ -36,7 +36,7 @@ def promote_toc(html: str) -> str:
     html = re.sub(
         r"(<body[^>]*>)",
         r"\1\n<button class=\"toc-toggle\" type=\"button\" aria-expanded=\"true\">目录</button>\n"
-        r"<nav class=\"toc\">\n" + toc_html + "\n</nav>",
+        r"<nav id=\"js-toc\" class=\"toc\">\n" + toc_html + "\n</nav>",
         html,
         count=1,
     )
@@ -59,10 +59,24 @@ def wrap_main_content(html: str) -> str:
             re.DOTALL,
         )
         insert_after = toggle_match.end() if toggle_match else body_match.end()
-    html = html[:insert_after] + "\n<main class=\"content\">\n" + html[insert_after:]
+    html = html[:insert_after] + "\n<main class=\"content js-content\">\n" + html[insert_after:]
     if "</main>" in html:
         return html
     return re.sub(r"</body>", "\n</main>\n</body>", html, count=1)
+
+
+def ensure_tocbot_assets(html: str) -> str:
+    if "tocbot" in html:
+        return html
+    css_tag = (
+        "<link rel=\"stylesheet\" "
+        "href=\"https://unpkg.com/tocbot@4/dist/tocbot.css\" />"
+    )
+    js_tag = (
+        "<script src=\"https://unpkg.com/tocbot@4/dist/tocbot.min.js\"></script>"
+    )
+    html = re.sub(r"</head>", css_tag + "\n" + js_tag + "\n</head>", html, count=1)
+    return html
 
 
 def main() -> int:
@@ -79,10 +93,18 @@ def main() -> int:
         text = ensure_body_class(text)
         text = promote_toc(text)
         text = wrap_main_content(text)
+        text = ensure_tocbot_assets(text)
         if "toc-toggle" in text and "toc-collapsed" not in text:
             text = re.sub(
                 r"</body>",
                 "<script>"
+                "if(window.tocbot){tocbot.init({"
+                "tocSelector:'#js-toc',"
+                "contentSelector:'.js-content',"
+                "headingSelector:'h1,h2,h3,h4',"
+                "collapseDepth:2,"
+                "hasInnerContainers:true"
+                "});}"
                 "(function(){var b=document.querySelector('.toc-toggle');"
                 "if(!b){return;}"
                 "b.addEventListener('click',function(){"
