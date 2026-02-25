@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -30,7 +30,6 @@ jobs:
       uses: zauguin/install-texlive@v3
       with:
         packages: scheme-full
-        cache: true
 
     - name: Compile LaTeX to PDF (Pass 1 - Generate TOC)
       run: |
@@ -245,16 +244,18 @@ jobs:
         echo "📦 Build directory contents:"
         ls -la build/
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Upload Pages artifact
+      uses: actions/upload-pages-artifact@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build
-        force_orphan: true
-        cname: false
+        path: build
 
-    - name: 🎉 Deployment Summary
-      run: |
-        echo "✓ Build and deployment completed!"
-        echo "📍 Website: https://knight-zmz.github.io/Liferguide"
-        echo "📄 Repository: https://github.com/knight-zmz/Liferguide"
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
