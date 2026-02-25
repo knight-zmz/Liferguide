@@ -43,6 +43,28 @@ def promote_toc(html: str) -> str:
     return html
 
 
+def wrap_main_content(html: str) -> str:
+    if "class=\"content\"" in html:
+        return html
+    body_match = re.search(r"<body[^>]*>", html)
+    if not body_match:
+        return html
+    nav_match = re.search(r"<nav class=\"toc\">.*?</nav>", html, re.DOTALL)
+    if nav_match:
+        insert_after = nav_match.end()
+    else:
+        toggle_match = re.search(
+            r"<button class=\"toc-toggle\"[^>]*>.*?</button>",
+            html,
+            re.DOTALL,
+        )
+        insert_after = toggle_match.end() if toggle_match else body_match.end()
+    html = html[:insert_after] + "\n<main class=\"content\">\n" + html[insert_after:]
+    if "</main>" in html:
+        return html
+    return re.sub(r"</body>", "\n</main>\n</body>", html, count=1)
+
+
 def main() -> int:
     if len(sys.argv) < 2:
         print("Usage: postprocess_html.py <html_dir>")
@@ -56,6 +78,7 @@ def main() -> int:
         text = file_path.read_text(encoding="utf-8", errors="ignore")
         text = ensure_body_class(text)
         text = promote_toc(text)
+        text = wrap_main_content(text)
         if "toc-toggle" in text and "toc-collapsed" not in text:
             text = re.sub(
                 r"</body>",

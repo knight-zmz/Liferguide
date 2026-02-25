@@ -42,12 +42,24 @@ a:hover {
 }
 
 /* Layout wrapper fallback */
-body > div, body > main {
+body:not(.lifeguide-body) > div, body:not(.lifeguide-body) > main {
   max-width: 960px;
   margin: 0 auto;
   padding: 3.5rem 3rem 5rem;
   background: var(--paper);
   box-shadow: 0 20px 60px var(--shadow);
+}
+
+body.lifeguide-body main.content {
+  max-width: 900px;
+  margin: 0 auto 0 320px;
+  padding: 3.5rem 3rem 5rem;
+  background: var(--paper);
+  box-shadow: 0 20px 60px var(--shadow);
+}
+
+body.lifeguide-body main.content > *:first-child {
+  margin-top: 0;
 }
 
 /* Sidebar TOC (tex4ht variations) */
@@ -86,6 +98,34 @@ body > div, body > main {
   border-left: 1px solid var(--border);
 }
 
+nav.toc li.tocpart > a,
+nav.toc li.tocchapter > a {
+  font-weight: 600;
+}
+
+nav.toc li.tocpart > a {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+nav.toc li.tocsection > a {
+  padding-left: 0.6rem;
+}
+
+nav.toc li.tocsubsection > a {
+  padding-left: 1.1rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+nav.toc li.tocsubsubsection > a {
+  padding-left: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 #toc ul ul a, #TOC ul ul a, #tableofcontents ul ul a, .tableofcontents ul ul a, nav.toc ul ul a {
   font-size: 0.88rem;
   color: var(--muted);
@@ -114,11 +154,9 @@ body > div, body > main {
 }
 
 /* Push content to make room for sidebar */
-body.lifeguide-body > div,
-body.lifeguide-body > main {
-  margin-left: 300px;
-  margin-right: 2rem;
-  max-width: 900px;
+body.lifeguide-body main.content {
+  margin-left: 320px;
+  margin-right: 2.5rem;
 }
 
 /* Sidebar toggle button */
@@ -146,10 +184,9 @@ body.toc-collapsed .tableofcontents {
   transform: translateX(-110%);
 }
 
-body.toc-collapsed > div,
-body.toc-collapsed > main {
-  margin-left: 2rem;
-  margin-right: 2rem;
+body.toc-collapsed main.content {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
   max-width: 980px;
 }
 
@@ -175,6 +212,23 @@ h2 {
 h3 {
   font-size: 1.25rem;
   color: var(--accent-2);
+}
+
+/* Title page alignment */
+main.content .titlepage,
+main.content .maketitle {
+  margin: 0 0 2.5rem;
+  padding: 3rem 2.5rem;
+  text-align: center;
+  background: linear-gradient(160deg, #fff8ef 0%, #f4ece3 100%);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px var(--shadow);
+}
+
+main.content .titlepage img,
+main.content .maketitle img {
+  margin: 1rem auto;
 }
 
 /* Tables */
@@ -225,9 +279,14 @@ blockquote {
     box-shadow: none;
     border-right: none;
   }
-  body > div, body > main {
+  body:not(.lifeguide-body) > div, body:not(.lifeguide-body) > main {
     margin: 0 1rem 2rem;
     padding: 2rem 1.5rem 3rem;
+  }
+  body.lifeguide-body main.content {
+    margin: 0 1rem 2rem;
+    padding: 2rem 1.5rem 3rem;
+    max-width: none;
   }
   .toc-toggle {
     position: static;
