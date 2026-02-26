@@ -160,4 +160,4 @@ git push origin main
 
 ## 🔗 友情链接
 
-- **现代科研指北s**：(https://github.com/yufree/sciguide)
+- **现代科研指北**：(https://github.com/yufree/sciguide)
